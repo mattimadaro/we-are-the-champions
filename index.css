@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    background: black;
+    color: #fff;
+    user-select: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+    width: 90px;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    align-items: center;
+    max-width: 317px;
+}
+
+textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 317px;
+    height: 118px;
+    border-radius: 8px;
+    border: none;
+    background: #444059;
+    padding: 16px;
+    margin: 10px 0;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    resize: none;
+}
+
+#from-to-input {
+    display: flex;
+    justify-content: space-between;
+    width: 317px;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 152px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: #444059;
+    text-align: center;
+    color: #8F8F8F;
+}
+
+button {
+    display: block;
+    width: 317px;
+    height: 61px;
+    background: #28A9F1;
+    color: #04131C;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.hint {
+    color: #fff;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-width: 317px;
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 13px;
+}
+
+ul li {
+    width: 317px;
+    background: #fff;
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 12px;
+    line-height: normal;
+    padding: 13px 15px;
+    
+}
